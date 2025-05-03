@@ -28,29 +28,29 @@ This project performs a complete data analysis on Blinkit's dataset to uncover c
 
 •	Seaborn: For generating enhanced visualizations, such as the bar plot for total sales by outlet location type. 
 
-•	Jupyter Notebook: The interactive environment used to write, run, and document the analysis (file: Blinkit Analysis in Python.ipynb).
+•	Jupyter Notebook: The interactive environment used to write, run, and document the analysis (file: https://github.com/sushilsingh5657/Blinkit-Analysis/raw/refs/heads/main/Blinkit%20Analysis%20in%20Python.ipynb).
 # Steps in the Project
-•	**Library Import**: 
+1.	Library Import: 
 
 •	Imported essential Python libraries: pandas for data manipulation, numpy for numerical operations, matplotlib.pyplot for plotting, and seaborn for enhanced visualizations.
 
-•	**Data Import**: 
+2.	Data Import: 
 
 •	Loaded the raw dataset from blinkit_data.csv into a Pandas DataFrame using pd.read_csv().
 
-•	**Data Exploration**: 
+3.	Data Exploration: 
 
 •	Displayed the first few rows (df.head()) and last few rows (df.tail()) of the dataset to understand its structure.
 
 •	Used df.info() to inspect the dataset's columns, data types, and missing values (noted missing values in Item Weight).
 
-•	**Data Cleaning**: 
+4.	Data Cleaning: 
 
 •	Identified inconsistent entries in the Item Fat Content column using df['Item Fat Content'].unique().
 
 •	Standardized values by replacing 'LF', 'low fat', and 'reg' with 'Low Fat' and 'Regular' to ensure consistency.
 
-•	**KPI Calculation**: 
+5.	KPI Calculation: 
 
 •	Computed key performance indicators (KPIs): 
 
@@ -64,7 +64,7 @@ This project performs a complete data analysis on Blinkit's dataset to uncover c
 
 •	Printed the results with formatted strings for clarity.
 
-•	**Data Visualization**: 
+6.	Data Visualization: 
 
 •	Created a bar plot using Seaborn to visualize total sales by Outlet Location Type: 
 
@@ -75,6 +75,7 @@ This project performs a complete data analysis on Blinkit's dataset to uncover c
 	Used sns.barplot to generate the plot, with appropriate titles and labels.
 
 	Adjusted the layout using plt.tight_layout() and displayed the plot with plt.show().
+
 # Conclusion
 The Blinkit Data Analysis Project provides a concise yet effective analysis of Blinkit's sales data, offering valuable insights into its operational and customer performance. By leveraging Python, Pandas, Matplotlib, and Seaborn within a Jupyter Notebook, the project successfully cleans the dataset, calculates key performance indicators (KPIs), and visualizes sales trends. Below is a summary of the conclusions drawn from the analysis:
 
