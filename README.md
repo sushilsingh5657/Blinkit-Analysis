@@ -30,27 +30,27 @@ This project performs a complete data analysis on Blinkit's dataset to uncover c
 
 •	Jupyter Notebook: The interactive environment used to write, run, and document the analysis (file: https://github.com/sushilsingh5657/Blinkit-Analysis/raw/refs/heads/main/Blinkit%20Analysis%20in%20Python.ipynb).
 # Steps in the Project
-1.	Library Import: 
+# 1.	Library Import: 
 
 •	Imported essential Python libraries: pandas for data manipulation, numpy for numerical operations, matplotlib.pyplot for plotting, and seaborn for enhanced visualizations.
 
-2.	Data Import: 
+# 2.	Data Import: 
 
 •	Loaded the raw dataset from blinkit_data.csv into a Pandas DataFrame using pd.read_csv().
 
-3.	Data Exploration: 
+# 3.	Data Exploration: 
 
 •	Displayed the first few rows (df.head()) and last few rows (df.tail()) of the dataset to understand its structure.
 
 •	Used df.info() to inspect the dataset's columns, data types, and missing values (noted missing values in Item Weight).
 
-4.	Data Cleaning: 
+# 4.	Data Cleaning: 
 
 •	Identified inconsistent entries in the Item Fat Content column using df['Item Fat Content'].unique().
 
 •	Standardized values by replacing 'LF', 'low fat', and 'reg' with 'Low Fat' and 'Regular' to ensure consistency.
 
-5.	KPI Calculation: 
+# 5.	KPI Calculation: 
 
 •	Computed key performance indicators (KPIs): 
 
@@ -64,7 +64,7 @@ This project performs a complete data analysis on Blinkit's dataset to uncover c
 
 •	Printed the results with formatted strings for clarity.
 
-6.	Data Visualization: 
+# 6.	Data Visualization: 
 
 •	Created a bar plot using Seaborn to visualize total sales by Outlet Location Type: 
 
